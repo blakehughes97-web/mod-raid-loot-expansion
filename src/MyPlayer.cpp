@@ -50,7 +50,7 @@ public:
 class MyWorldScript : public WorldScript
 {
 public:
-MyWorldScript() : WorldScript("MyWorldScript", {
+    MyWorldScript() : WorldScript("MyWorldScript", {
         WORLDHOOK_ON_BEFORE_CONFIG_LOAD
     }) { }
 
