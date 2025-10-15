@@ -3,7 +3,6 @@
  */
 
 #include "Chat.h"
-#include "Config.h"
 #include "ConfigValueCache.h"
 #include "Player.h"
 #include "ScriptMgr.h"
@@ -37,7 +36,9 @@ static MyConfigData myConfigData;
 class MyPlayer : public PlayerScript
 {
 public:
-    MyPlayer() : PlayerScript("MyPlayer") { }
+    MyPlayer() : PlayerScript("MyPlayer", {
+        PLAYERHOOK_ON_LOGIN
+    }) { }
 
     void OnPlayerLogin(Player* player) override
     {
