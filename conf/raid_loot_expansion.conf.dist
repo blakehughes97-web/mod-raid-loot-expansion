@@ -1,0 +1,23 @@
+[raid-loot-expansion]
+
+# Enable the module
+RaidLootExpansion.Enable = 1
+
+# Your server's target expansion (0=Classic, 1=TBC, 2=WotLK). Used only for logging.
+RaidLootExpansion.TargetExpansion = 2
+
+# ALL raid maps (Classic + TBC + WotLK)
+RaidLootExpansion.EnabledMaps = 249,309,409,469,509,531,533,532,534,544,548,550,564,565,568,585,603,615,616,624,631,649,724
+
+# Scaling values per player level tier
+RaidLootExpansion.StatMultiplier60 = 1.8
+RaidLootExpansion.ILvlBoost60      = 15
+RaidLootExpansion.StatMultiplier70 = 2.6
+RaidLootExpansion.ILvlBoost70      = 45
+RaidLootExpansion.StatMultiplier80 = 3.5
+RaidLootExpansion.ILvlBoost80      = 70
+
+# Extra useful settings
+RaidLootExpansion.AppendNameSuffix = 1
+RaidLootExpansion.ShowMessage      = 1
+RaidLootExpansion.Debug            = 0
