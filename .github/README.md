@@ -16,6 +16,7 @@
 
 - Works alongside mod-autobalance
 
+Disclaimer This module has not been fully tested. Please test it thoroughly on your server. If you encounter any issues or bugs, let me know so I can fix them quickly. Thank you for your help!
 ## Installation
 
 1. Clone into your modules folder:
@@ -25,5 +26,3 @@
 cd modules
 
 git clone https://github.com/blakehughes97-web/mod-raid-loot-expansion.git
-
-Disclaimer This module has not been fully tested. Please test it thoroughly on your server. If you encounter any issues or bugs, let me know so I can fix them quickly. Thank you for your help!
